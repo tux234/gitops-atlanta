@@ -74,6 +74,12 @@ controls:
   windows_settings:
     configuration_profiles:
       - paths: ../platforms/windows/configuration-profiles/*.xml
+  macos_updates:
+    deadline: "2026-08-30"
+    minimum_version: "26.5"
+  ipados_updates:
+    deadline: "2026-08-30"
+    mininum_version: "26.2"
 
   ###########################################################
   # Managed disk encryption
@@ -84,7 +90,8 @@ controls:
   # Read more here:
   #   • https://fleetdm.com/guides/enforce-disk-encryption
   ###########################################################
-  # enable_disk_encryption: true
+  enable_disk_encryption: true
+  enable_recovery_lock_password: true
 
   ###########################################################
   # Managed OS updates
