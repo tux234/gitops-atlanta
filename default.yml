@@ -26,7 +26,7 @@ org_settings:
     transparency_url: https://catoftheday.com
   webhook_settings:
     activities_webhook:
-      enable_activites_webhook: true
+      enable_activities_webhook: true
       destination_url: https://webhook.site/803f8443-452b-406c-bcde-1667a1936107
 
   server_settings:
